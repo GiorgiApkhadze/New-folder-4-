@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.151" height="48.151" viewBox="0 0 48.151 48.151">
+  <g id="_002-interface-1" data-name="002-interface-1" transform="translate(0.15 0.15)">
+    <g id="Group_42" data-name="Group 42" transform="translate(0)">
+      <path id="Path_277" data-name="Path 277" d="M47.851,10.368a.293.293,0,0,0-.08-.239v-.08c-.08-.08-.08-.16-.16-.239L38.041.239c-.08-.08-.16-.08-.239-.16h-.08c-.08,0-.16-.08-.239-.08H.8A.753.753,0,0,0,0,.8V47.851H1.6V1.6H36.686v8.773a.753.753,0,0,0,.8.8h8.773V47.851h1.6V10.368Zm-9.57-.8V2.712L45.139,9.57Z" transform="translate(0)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <path id="Path_278" data-name="Path 278" d="M43.483,36H6.8a.753.753,0,0,0-.8.8V55.14H7.6V43.975h6.38V55.14h1.6V43.975H42.686V55.14h1.6V36.8A.753.753,0,0,0,43.483,36ZM7.6,42.38V37.6H42.686V42.38Z" transform="translate(-1.215 -7.289)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_50" data-name="Rectangle 50" width="7.975" height="1.595" transform="translate(4.785 4.785)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_51" data-name="Rectangle 51" width="11.165" height="1.595" transform="translate(4.785 7.975)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="33.496" height="1.595" transform="translate(9.57 15.95)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_53" data-name="Rectangle 53" width="38.281" height="1.595" transform="translate(4.785 19.938)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_54" data-name="Rectangle 54" width="3.19" height="1.595" transform="translate(7.975 38.281)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_55" data-name="Rectangle 55" width="3.19" height="1.595" transform="translate(7.975 41.471)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_56" data-name="Rectangle 56" width="3.19" height="1.595" transform="translate(7.975 44.661)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_57" data-name="Rectangle 57" width="9.57" height="1.595" transform="translate(7.975 31.901)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="4.785" height="1.595" transform="translate(19.14 31.901)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_59" data-name="Rectangle 59" width="4.785" height="1.595" transform="translate(25.52 31.901)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_60" data-name="Rectangle 60" width="15.95" height="1.595" transform="translate(16.748 38.281)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="22.33" height="1.595" transform="translate(16.748 41.471)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_62" data-name="Rectangle 62" width="22.33" height="1.595" transform="translate(16.748 44.661)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_63" data-name="Rectangle 63" width="1.595" height="1.595" transform="translate(35.091 23.925)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="1.595" height="1.595" transform="translate(38.281 23.925)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      <rect id="Rectangle_65" data-name="Rectangle 65" width="1.595" height="1.595" transform="translate(41.471 23.925)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+    </g>
+  </g>
+</svg>
