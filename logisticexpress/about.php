@@ -139,7 +139,7 @@
 										</div>
 										<!-- Form Start -->
 										<div class="col-xl-4 col-lg-5 col-md-8">
-														<button name="submit" class="submit-btn">Contact Us</button>
+														<button name="submit" class="submit-btn" onclick="window.location.href = './services.php';">Contact Us</button>
 										</div>
 										<!-- Form End -->
 								</div>
