@@ -255,7 +255,7 @@
 							text-align: center;
 							    padding: 5px;
 							">
-									<a href="job_description" style="color: #2268DD">Join Our Team</a>
+									<a href="jobs.php" style="color: #2268DD">Join Our Team</a>
 							</div>
 					</form>
 				</div>
@@ -297,7 +297,7 @@
                         <div class="single-footer-caption mb-50">
                             <!-- logo -->
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/img/footerlogo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/footerlogo.svg" alt=""></a>
                             </div>
                             <!-- Footer Social -->
                             <div class="footer-social ">

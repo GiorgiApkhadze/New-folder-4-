@@ -218,7 +218,7 @@
                         <div class="single-footer-caption mb-50">
                             <!-- logo -->
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/img/footerlogo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/footerlogo.svg" alt=""></a>
                             </div>
                             <!-- Footer Social -->
                             <div class="footer-social ">
