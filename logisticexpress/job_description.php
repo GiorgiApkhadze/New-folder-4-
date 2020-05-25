@@ -42,7 +42,7 @@ for ($i = 0; $i < sizeof($field); $i++)
         <link rel="stylesheet" href="assets/css/nice-select.css">
         <link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="assets/css/responsive.css">
-		
+
 		<script src="./js/jquery-3.4.1.min.js"></script>
 		<script src="./js/functions.js"></script>
 </head>
@@ -93,28 +93,6 @@ for ($i = 0; $i < sizeof($field); $i++)
         <!-- Header End -->
     </header>
     <main>
-        <!--? slider Area Start-->
-				<div class="slider-area " >
-						<div class="slider-active">
-								<!-- Single Slider -->
-								<div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/banner02.png);min-height: 500px;">
-										<div class="container" style="margin-left:30%;">
-												<div class="row">
-														<div class="col-xl-9 col-lg-9">
-																<div class="hero__caption">
-																		<h1><span style="color:#2268DD"><?=$detailed_info[0]['name'] ?></span></h1>
-																</div>
-
-																<div class="hero-pera">
-																		<p><?=$detailed_info[0]['location'] ?></p>
-																</div>
-																
-														</div>
-												</div>
-										</div>
-								</div>
-						</div>
-				</div>
 				<div class="Content slider-area" style="padding:200px">
 					<h3 class="Position">Position</h3>
 						<h5 class="Position_name"><?=$detailed_info[0]['name'] ?></h5>
@@ -139,7 +117,7 @@ for ($i = 0; $i < sizeof($field); $i++)
 					endfor;
 					?>
 
-				
+
 														<div class="file-upload">
 
 				  <div class="image-upload-wrap">
@@ -206,40 +184,22 @@ for ($i = 0; $i < sizeof($field); $i++)
 		                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
 		                        <div class="single-footer-caption mb-50">
 		                            <div class="footer-tittle">
-		                                <h4>COMPANY</h4>
 		                                <ul>
-		                                    <li><a href="#">About Us</a></li>
-		                                    <li><a href="#">Services</a></li>
-		                                    <li><a href="#"> Join</a></li>
-		                                    <li><a href="#"> Contact</a></li>
+		                                    <li><a href="about.php">About Us</a></li>
+		                                    <li><a href="services.php">Services</a></li>
+		                                    <li><a href="jobs.php"> Join</a></li>
+		                                    <li><a href="contacnt.php"> Contact</a></li>
 		                                </ul>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-		                        <div class="single-footer-caption mb-50">
-		                            <div class="footer-tittle">
-		                                <h4>Open hour</h4>
-		                                <ul>
-											<li><a target="_blank" href="./file/Halitrephes - Privacy Policy.docx">Privacy Policy</a></li>
-											<li><a target="_blank" href="./file/Halitrephes - Terms of Use.docx">Term of use</a></li>
-											<li><a href="#"> Car Insurance</a></li>
-											<li><a href="#"> Business Insurance</a></li>
-											<li><a href="#"> Heal Insurance</a></li>
-										</ul>
 		                            </div>
 		                        </div>
 		                    </div>
 		                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
 		                        <div class="single-footer-caption mb-50">
 		                            <div class="footer-tittle">
-		                                <h4>RESOURCES</h4>
 		                                <ul>
-		                                    <li><a href="#">Home Insurance</a></li>
-		                                    <li><a href="#">Travel Insurance</a></li>
-		                                    <li><a href="#"> Car Insurance</a></li>
-		                                    <li><a href="#"> Business Insurance</a></li>
-		                                    <li><a href="#"> Heal Insurance</a></li>
+		                                    <li><a target="_blank" href="./file/Halitrephes - Privacy Policy.docx">Privacy Policy</a></li>
+		                                    <li><a target="_blank" href="./file/Halitrephes - Terms of Use.docx">Term of use</a></li>
+		                                    <li><a href="#"> Sitemap</a></li>
 		                                </ul>
 		                            </div>
 		                        </div>
@@ -252,8 +212,8 @@ for ($i = 0; $i < sizeof($field); $i++)
 		                            </div>
 		                            <!-- Footer Social -->
 		                            <div class="footer-social ">
-		                                <a href=""><i class="fab fa-facebook-f" style="color:white"></i></a>
-		                                <a href=""><i class="fab fa-linkedin-in" style="color:white"></i></a>
+		                                <a href="https://www.facebook.com/Halitrephes/"><i class="fab fa-facebook-f" style="color:white"></i></a>
+		                                <a href="https://www.linkedin.com/company/halitrephes/"><i class="fab fa-linkedin-in" style="color:white"></i></a>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -265,7 +225,7 @@ for ($i = 0; $i < sizeof($field); $i++)
 		                    <div class="col-lg-12">
 		                        <div class="footer-copy-right text-center">
 		                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+		  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reservedh by Hailtrephes
 		  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 		                        </div>
 		                    </div>

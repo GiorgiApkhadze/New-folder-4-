@@ -5532,6 +5532,7 @@ b, sup, sub, u, del {
 }
 .job_desc_res{
 	padding-bottom: 50px;
+	padding-top:50px;
 }
 .file-upload {
   background-color: #ffffff;
@@ -5642,4 +5643,53 @@ b, sup, sub, u, del {
 .remove-image:active {
   border: 0;
   transition: all .2s ease;
+}
+.left-side > section,
+.right-side > section {
+  border: 20px solid black;
+}
+
+.left-side,
+.right-side {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 20px;
+  font-size: 1.25rem;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+  white-space: normal;
+  width: 50%;
+}
+
+[data-align="bottom"] > .left-side,
+[data-align="bottom"] > .right-side {
+  vertical-align: bottom;
+}
+
+section:before,
+section:after {
+  content: '';
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  z-index: -1;
+}
+
+section:before {
+  background: #ff9e2c;
+  left: 0;
+}
+
+section:after {
+  background: #b6701e;
+  right: 0;
+}
+.right_half{
+	float: right;
+}
+.left_half{
+	float: left;
 }
