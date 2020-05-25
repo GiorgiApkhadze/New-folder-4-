@@ -7,8 +7,7 @@ $dbconn;
 function db_Connect()
 {
     global $dbconn;
-	//$dbconn = new mysqli('localhost', 'admin', 'LockedDB01#', 'travelsmates');
-	$dbconn = new mysqli('localhost', 'root', '', 'travelmates');
+	$dbconn = new mysqli('localhost', 'root', '', 'hailtrephes');
 	if ($dbconn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
 	}

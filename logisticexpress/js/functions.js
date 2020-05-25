@@ -28,7 +28,7 @@ function add_additional_field()
 
     $.ajax({ 
         type:       'POST', 
-        url:        './utils/add_transfer_field.php', 
+        url:        './utils/add_job_field.php', 
         data:       {
                         Data: Data
                     },
@@ -38,21 +38,21 @@ function add_additional_field()
                         
                         fields_id.push(data);
 
-                        document.getElementById('transfer_fields_id').value = JSON.stringify(fields_id);
+                        document.getElementById('job_fields_id').value = JSON.stringify(fields_id);
 
-                        document.getElementById('values').innerHTML = `Values:<br>
+                        document.getElementById('values').innerHTML = `Job inside values:<br>
                         <input type="text" class="header_value"><br><br>`;
-
+                        document.getElementById('header').value = '';
                     }
     });
 }
 
-function delete_transfer(id, row)
+function delete_job(id, row)
 {
     
     $.ajax({ 
         type:       'POST', 
-        url:        './utils/delete_transfer.php', 
+        url:        './utils/delete_job.php', 
         data:       {
                         id: id
                     },
@@ -63,34 +63,6 @@ function delete_transfer(id, row)
                     }
     });
 
-}
-
-function get_transfer_data(id, modal)
-{
-    
-    let form = document.getElementById('update_transfer_form');
-
-    $.ajax({ 
-        type:       'POST', 
-        url:        './utils/get_transfer_data.php', 
-        data:       {
-                        id: id
-                    },
-        dataType:   'json',
-        success:    function(data)
-                    {
-                        form.name.value = data[0].name;
-                        form.description.value = data[0].description;
-                        form.expectation.value = data[0].expectation;
-                        form.price.value = data[0].price;
-                        form.type.value = data[0].type;
-
-                        document.getElementById('transfer_id').value = id;
-
-                        modal.style.display = 'block';
-                    }
-    });
-    
 }
 
 function send_cv(input) 
