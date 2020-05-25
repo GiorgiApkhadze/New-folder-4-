@@ -9,8 +9,8 @@ require '../phpfiles/src/PHPMailer.php';
 require '../phpfiles/src/SMTP.php';
 
 $email = new PHPMailer();
-$email->SetFrom('you@example.com', 'CV'); //Name is optional
-$email->Subject   = 'cv';
+$email->SetFrom('info@halitrephes.com', 'CV'); //Name is optional
+$email->Subject   = '-';
 $email->IsHTML(true);    
 
 $body = '<html><body>';
@@ -24,7 +24,7 @@ $body .= '</body></html>';
 
 $email->Body = $body;
 
-$email->AddAddress( 'vatia1998@gmail.com' );
+$email->AddAddress( 'careers@halitrephes.com' );
 
 $email->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
 $email->isSMTP();                                            // Send using SMTP
