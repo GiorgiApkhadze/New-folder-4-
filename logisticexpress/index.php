@@ -255,7 +255,7 @@
 							text-align: center;
 							    padding: 5px;
 							">
-									<a href="job_description" style="color: #2268DD">Join Our Team</a>
+									<a href="jobs.php" style="color: #2268DD">Join Our Team</a>
 							</div>
 					</form>
 				</div>
