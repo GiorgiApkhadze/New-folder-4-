@@ -28,13 +28,13 @@
     <!-- Header Start -->
     <div class="header-area">
         <div class="main-header ">
-            <div class="header-bottom  header-sticky">
+            <div class="header-bottom  header-sticky" style="background:white">
                 <div class="container">
                     <div class="row align-items-center">
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.php"><img src="assets/img/icon01.svg" style="color:white" alt=""></a>
+                                <a href="index.php"><img src="assets/img/icon.svg" style="color: #272727;" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">
@@ -43,16 +43,20 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="about.php">About</a></li>
-                                            <li><a href="services.php">Services</a></li>
-                                            <li><a href="jobs.php">Join</a>
+                                            <li><a href="about.php" style="color: #272727;">About</a></li>
+                                            <li><a href="services.php" style="color: #272727;">Services</a></li>
+                                            <li><a href="jobs.php" style="color: #272727;">Join</a>
                                             </li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <!-- Header-btn -->
                                 <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="contact.php" class="btn header-btn">Contact</a>
+                                    <a href="contact.php" class="btn header-btn" style="
+																																							    width: 219px;
+																																							    color: #FF855D;
+																																							    font-weight: bold;
+																																							">Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -67,6 +71,43 @@
     </div>
     <!-- Header End -->
 </header>
+<div class="slider-area ">
+		<div class="slider-active">
+				<!-- Single Slider -->
+				<div class="bkg" style="background:black">
+				<div class="single-slider slider-height d-flex align-items-center " style="background-image: url(assets/img/services.png); ">
+						<div class="container"  style="margin-left: 46%;
+																						text-align: left;
+																						letter-spacing: NaNpx;
+																						color: #FFFFFF;
+																						text-shadow: 0px 3px 6px #00000070;
+																						opacity: 1;">
+								<div class="row">
+										<div class="col-xl-9 col-lg-9">
+												<div class="hero__caption">
+														<h1> Sharping Uncertanity</h1>
+												</div>
+
+												<div class="hero-pera">
+														<p>Halitrephes is your information technology resource partner building confidence</br>
+															 through disciplined acquisition and program management support.</p>
+												</div>
+												<form action="#" class="search-box">
+														<div class="search-form" style="
+														border: 4px solid #FF855D;
+														width: 219px;
+														">
+																<a href="about.php" style="
+																											color: #FF855D;
+																									">Learn More</a>
+														</div>
+												</form>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
 <main>
 	<div class="list">
 	<div class="flip-flop">

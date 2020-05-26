@@ -30,7 +30,9 @@
         <!-- Header Start -->
 				<div class="header-area">
 		        <div class="main-header ">
-		            <div class="header-bottom  header-sticky">
+		            <div class="header-bottom  header-sticky" style="
+    background: transparent linear-gradient(289deg, #2268C6 -13%, #002453 100%) 0% 0% no-repeat padding-box;
+">
 		                <div class="container">
 		                    <div class="row align-items-center">
 		                        <!-- Logo -->
@@ -54,7 +56,11 @@
 										</div>
 										<!-- Header-btn -->
 										<div class="header-right-btn d-none d-lg-block ml-20">
-											<a href="contact.php" class="btn header-btn">Contact</a>
+											<a href="contact.php" class="btn header-btn" style="
+																																							    width: 219px;
+																																							    color: #FF855D;
+																																							    font-weight: bold;
+																																							">Contact Us</a>
 										</div>
 									</div>
 								</div>
@@ -139,7 +145,7 @@
 										</div>
 										<!-- Form Start -->
 										<div class="col-xl-4 col-lg-5 col-md-8">
-														<button name="submit" class="submit-btn">Contact Us</button>
+														<button name="submit" class="submit-btn" >Contact Us</button>
 										</div>
 										<!-- Form End -->
 								</div>

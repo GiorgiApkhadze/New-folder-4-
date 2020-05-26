@@ -28,7 +28,7 @@
     <!-- Header Start -->
     <div class="header-area">
         <div class="main-header ">
-            <div class="header-bottom  header-sticky">
+            <div class="header-bottom  header-sticky" style="background-image: url(assets/img/index_banner.png);">
                 <div class="container">
                     <div class="row align-items-center">
                         <!-- Logo -->
@@ -52,7 +52,11 @@
                                 </div>
                                 <!-- Header-btn -->
                                 <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="contact.php" class="btn header-btn">Contact</a>
+                                    <a href="contact.php" class="btn header-btn" style="
+																																							    width: 219px;
+																																							    color: #FF855D;
+																																							    font-weight: bold;
+																																							">Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -73,12 +77,17 @@
         <div class="slider-active">
             <!-- Single Slider -->
 						<div class="bkg" style="background:black">
-            <div class="single-slider slider-height d-flex align-items-center " style="background-image: url(assets/img/banner001.png); ">
-                <div class="container"  style="margin-left:30%;">
+            <div class="single-slider slider-height d-flex align-items-center " style="background-image: url(assets/img/index_banner.png); ">
+                <div class="container"  style="margin-left: 46%;
+																						    text-align: left;
+																						    letter-spacing: NaNpx;
+																						    color: #FFFFFF;
+																						    text-shadow: 0px 3px 6px #00000070;
+																						    opacity: 1;">
                     <div class="row">
                         <div class="col-xl-9 col-lg-9">
                             <div class="hero__caption">
-                                <h1> Sharping <span>Uncertanity</span></h1>
+                                <h1> Sharping Uncertanity</h1>
                             </div>
 
                             <div class="hero-pera">
@@ -88,8 +97,11 @@
                             <form action="#" class="search-box">
                                 <div class="search-form" style="
 														    border: 4px solid #FF855D;
+																width: 219px;
 																">
-                                    <a href="about.php">Learn More</a>
+                                    <a href="about.php" style="
+																											    color: #FF855D;
+																											">Learn More</a>
                                 </div>
                             </form>
                         </div>
@@ -101,8 +113,8 @@
 	</div>
     <!-- slider Area End-->
     <!--? our info Start -->
-    <div class="our-info-area pt-70 pb-40">
-        <div class="container" style="margin-left:25%;">
+    <div class="our-info-area pt-70 pb-40" style="height:126px">
+        <div class="container" style="margin-left:20%;">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-30">
@@ -154,11 +166,17 @@
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
 													<span>
-														<img src="assets/img/Section 2 icon 1.svg">
+														<img src="assets/img/Section 2 icon 1.svg" style="
+																																		    position: relative;
+																																		    left: -134px;
+																																		">
 													</span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a>Halitrephes for your acquisition requirements</a></h5>
+                            <h5><a style="
+														text-align: initial;
+font-size: 24px;
+															">Halitrephes for your acquisition requirements</a></h5>
                             <p>Build your contracting office with experienced acquisition personnel</p>
                         </div>
                     </div>
@@ -167,11 +185,17 @@
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
                             <span>
-															<img src="assets/img/Group 5161.svg">
+															<img src="assets/img/Group 5161.svg" style="
+																																    position: relative;
+																																    left: -134px;
+																																">
 														</span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Specialized hardware</a></h5>
+                            <h5><a href="services.html" style="
+														text-align: initial;
+font-size: 24px;
+																											">Specialized hardware</a></h5>
                             <p>Optimize your computing bandwidth with cuttingedge technology.</p>
                         </div>
                     </div>
@@ -180,11 +204,17 @@
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
                             <span>
-															<img src="assets/img/002-interface-1.svg">
+															<img src="assets/img/002-interface-1.svg" style="
+																																		    position: relative;
+																																		    left: -134px;
+																																		">
 														</span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Software Solutions</a></h5>
+                            <h5><a href="services.html" style="
+														text-align: initial;
+font-size: 24px;
+																											">Software Solutions</a></h5>
                             <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
                         </div>
                     </div>
@@ -277,7 +307,7 @@
                                     <li><a href="about.php">About Us</a></li>
                                     <li><a href="services.php">Services</a></li>
                                     <li><a href="jobs.php"> Join</a></li>
-                                    <li><a href="contacnt.php"> Contact</a></li>
+                                    <li><a href="contacnt.php"> Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
