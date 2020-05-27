@@ -93,7 +93,7 @@ db_Disconnect();
 												<div class="row">
 														<div class="col-xl-9 col-lg-9">
 																<div class="hero__caption">
-																		<h1><span style="color:#2268DD">Hailtrephes</span> Challange </h1>
+																		<h1><span style="color:#2268DD">Halitrephes</span> Challange </h1>
 																</div>
 
 																<div class="hero-pera">
@@ -214,8 +214,8 @@ db_Disconnect();
                         <div class="single-footer-caption">
                             <div class="footer-tittle">
                                 <ul>
-                                    <li><a target="_blank" href="./file/Halitrephes - Privacy Policy.docx">Privacy Policy</a></li>
-                                    <li><a target="_blank" href="./file/Halitrephes - Terms of Use.docx">Term of use</a></li>
+                                    <li><a target="_blank" href="./file/Halitrephes - Privacy Policy.pdf">Privacy Policy</a></li>
+                                    <li><a target="_blank" href="./file/Halitrephes - Terms of Use.pdf">Term of use</a></li>
                                     <li><a href="#"> Sitemap</a></li>
                                 </ul>
                             </div>

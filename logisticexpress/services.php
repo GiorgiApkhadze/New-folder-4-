@@ -75,7 +75,7 @@
 		<div class="slider-active">
 				<!-- Single Slider -->
 				<div class="bkg" style="background:black">
-				<div class="single-slider slider-height d-flex align-items-center " style="background-image: url(assets/img/services.png); ">
+				<div class="single-slider slider-height d-flex align-items-center " style="background-image: url(assets/img/services.png); filter: brightness(50%);">
 						<div class="container"  style="margin-left: 46%;
 																						text-align: left;
 																						letter-spacing: NaNpx;
@@ -85,23 +85,10 @@
 								<div class="row">
 										<div class="col-xl-9 col-lg-9">
 												<div class="hero__caption">
-														<h1> Sharping Uncertanity</h1>
+														<h1 style="font-family: inherit;"> Services</h1>
 												</div>
 
-												<div class="hero-pera">
-														<p>Halitrephes is your information technology resource partner building confidence</br>
-															 through disciplined acquisition and program management support.</p>
-												</div>
-												<form action="#" class="search-box">
-														<div class="search-form" style="
-														border: 4px solid #FF855D;
-														width: 219px;
-														">
-																<a href="about.php" style="
-																											color: #FF855D;
-																									">Learn More</a>
-														</div>
-												</form>
+												
 										</div>
 								</div>
 						</div>
@@ -170,8 +157,8 @@
                         <div class="single-footer-caption">
                             <div class="footer-tittle">
                                 <ul>
-                                    <li><a target="_blank" href="./file/Halitrephes - Privacy Policy.docx">Privacy Policy</a></li>
-                                    <li><a target="_blank" href="./file/Halitrephes - Terms of Use.docx">Term of use</a></li>
+                                    <li><a target="_blank" href="./file/Halitrephes - Privacy Policy.pdf">Privacy Policy</a></li>
+                                    <li><a target="_blank" href="./file/Halitrephes - Terms of Use.pdf">Term of use</a></li>
                                     <li><a href="#"> Sitemap</a></li>
                                 </ul>
                             </div>

@@ -205,8 +205,8 @@ for ($i = 0; $i < sizeof($field); $i++)
                         <div class="single-footer-caption">
                             <div class="footer-tittle">
                                 <ul>
-                                    <li><a target="_blank" href="./file/Halitrephes - Privacy Policy.docx">Privacy Policy</a></li>
-                                    <li><a target="_blank" href="./file/Halitrephes - Terms of Use.docx">Term of use</a></li>
+                                    <li><a target="_blank" href="./file/Halitrephes - Privacy Policy.pdf">Privacy Policy</a></li>
+                                    <li><a target="_blank" href="./file/Halitrephes - Terms of Use.pdf">Term of use</a></li>
                                     <li><a href="#"> Sitemap</a></li>
                                 </ul>
                             </div>
