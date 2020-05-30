@@ -2,6 +2,14 @@
     .white-bg {
     background: #ffffff;
 }
+@font-face {
+  font-family: Cocogoose;
+  src: url(fonts\Cocogoose Pro Ultralight-trial.ttf);
+}
+@font-face {
+  font-family: PublicSans-Light;
+  src: url(fonts\PublicSans-Light.ttf);
+}
 
 .gray-bg {
     background: #f5f5f5;
@@ -1004,7 +1012,7 @@ hero-btn {
     padding-top: 65px;
 }
 .pt-70 {
-    padding-top: 70px;
+    padding-top: 23px;
 }
 .pt-75 {
     padding-top: 75px;
@@ -1108,9 +1116,9 @@ hero-btn {
 .pb-35 {
     padding-bottom: 35px;
 }
-.pb-40 {
+/* .pb-40 {
     padding-bottom: 40px;
-}
+} */
 .pb-45 {
     padding-bottom: 45px;
 }
@@ -2140,7 +2148,6 @@ to {
     padding: 0 !important;
 }
 .slider-height {
-    background-image: url(../img/hero/h1_hero.jpg);
     min-height: 500px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -2189,7 +2196,8 @@ to {
     padding-top: 50px;
 }
 }.slider-area .hero__caption h1 {
-    font-size: 95px;
+	font-family: Cocogoose;
+    font-size: 69px;
     font-weight: 600;
     margin-bottom: 14px;
     color: #fff;
@@ -2299,10 +2307,10 @@ to {
     border-bottom-right-radius: 0px;
 }
 }.slider-area .hero-pera p {
+	 font-family: PublicSans-Light;
     color: #fff;
     margin-bottom: 42px;
     font-size: 14px;
-    font-style: italic;
     text-transform: uppercase;
 }
 .hero-overly {
@@ -2448,7 +2456,7 @@ to {
 	background: #00235E 0% 0% no-repeat padding-box;
     border: 1px solid #e1ebf7;
     border-radius: 6px;
-    padding: 85px 22px;
+    padding: 15px 22px;
     -webkit-transition: all .4s ease-out 0s;
     -moz-transition: all .4s ease-out 0s;
     -ms-transition: all .4s ease-out 0s;
@@ -2502,6 +2510,7 @@ to {
     font-size: 26px;
 }
 }.categories-area .single-cat .cat-cap p {
+		text-align: justify;
     margin-bottom: 36px;
     color: #57667e;
     font-size: 16px;
