@@ -79,7 +79,7 @@
 												<div class="row">
 														<div class="col-xl-9 col-lg-9" style="text-align: center;">
 																<div class="hero__caption">
-																		<h1 style=" position: absolute;opacity: 0.15;left: 272px;font-size: 9em;top: -11px;" >About</h1>
+																		<h1 style=" position: absolute;opacity: 0.15;left: 25%;font-size: 9em;top: -11px;" >About</h1>
 																		<h1>About Us </h1>
 																</div>
 
@@ -98,18 +98,26 @@
 						<div><img alt="The Fusion Advantage"  src="assets\img\aboutus.svg" title="The Fusion Advantage" /></div>
 						<div class="fc-adv-txt-r">
 
-							<p>Our expert team has worked in the industry since 2000 providing</br>
-								 cost-effective, low-risk solutions to federal clients. Our customers include the</br>
-								  Defense Information Systems Agency (DISA), the United States Air Force (USAF), </br>
-									and the Federal Aviation Agency (FAA).</p>
-							<h3><a href="">Learn More About Halitrephes</a></h3>
-							<form action="#" style="padding-top:20px;" class="search-box">
+							<p>Our expert team has worked in the industry since
+                                2000 providing
+                                cost
+                                -
+                                effective, low
+                                -
+                                risk solutions to federal
+                                clients. Our customers include the
+                                Defense Information Systems Agency (DISA), the
+                                United States Air Force (USAF),
+                                the Federal
+                                Aviation Agency (FAA) and commercial clients.</p>
+							<h3><a href="./services.php">Learn More About Halitrephes</a></h3>
+							<!-- <form action="#" style="padding-top:20px;" class="search-box">
 									<div class="search-form" style="    border: 4px solid #FF855D;text-align: center;  padding: 11px;  height: 59px;  font-weight: bold;
     font-size: 18px;
 									">
 											<a href="#" style="color:#FF855D; padding: 6px; ">Download Capabilities Sheet </a>
 									</div>
-							</form>
+							</form> -->
 						</div>
 					</div>
 				</div>
@@ -204,19 +212,17 @@
                                                                 min-height: 100px;">
                                 <ul style="padding-top: 10%;">
                                     <li><div style="
-                                                        background-color: #244191;
                                                         min-width: 30px;
                                                         border-radius: 10%;
                                                     " align="center">
-                                            <a target="_blank" href="https://www.linkedin.com/company/halitrephes/"><i class="fab fa-linkedin-in" style="color: #2268DD;"></i></a>
+                                            <a target="_blank" href="https://www.linkedin.com/company/halitrephes/"><i class="fab fa-linkedin-in" style="color: white;"></i></a>
                                         </div></li>
                                     <li style="margin-top: 100%;">
                                         <div style="
-                                                        background-color: #244191;
                                                         min-width: 30px;
                                                         border-radius: 10%;
                                                     " align="center">
-                                            <a target="_blank" href="https://www.facebook.com/Halitrephes/"><i class="fab fa-facebook-f" style="color: #2268DD;"></i></a></li>
+                                            <a target="_blank" href="https://www.facebook.com/Halitrephes/"><i class="fab fa-facebook-f" style="color: white;"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -226,7 +232,7 @@
             <div class="row d-flex justify-content-between">
                     <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6"" style="display: contents;">
                         <div class="single-footer-caption mb-50" style="margin-bottom: 0px;">
-                            <P style="color: white;">© 2020 (ცკ) HALITREPHES LLC</P>
+                            <P style="color: white;">© 2020 HALITREPHES LLC</P>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6" style="display: contents;">

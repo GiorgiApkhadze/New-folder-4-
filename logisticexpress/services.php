@@ -169,19 +169,17 @@
                                                                 min-height: 100px;">
                                 <ul style="padding-top: 10%;">
                                     <li><div style="
-                                                        background-color: #244191;
                                                         min-width: 30px;
                                                         border-radius: 10%;
                                                     " align="center">
-                                            <a target="_blank" href="https://www.linkedin.com/company/halitrephes/"><i class="fab fa-linkedin-in" style="color: #2268DD;"></i></a>
+                                            <a target="_blank" href="https://www.linkedin.com/company/halitrephes/"><i class="fab fa-linkedin-in" style="color: white;"></i></a>
                                         </div></li>
                                     <li style="margin-top: 100%;">
                                         <div style="
-                                                        background-color: #244191;
                                                         min-width: 30px;
                                                         border-radius: 10%;
                                                     " align="center">
-                                            <a target="_blank" href="https://www.facebook.com/Halitrephes/"><i class="fab fa-facebook-f" style="color: #2268DD;"></i></a></li>
+                                            <a target="_blank" href="https://www.facebook.com/Halitrephes/"><i class="fab fa-facebook-f" style="color: white;"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -191,7 +189,7 @@
             <div class="row d-flex justify-content-between">
                     <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6"" style="display: contents;">
                         <div class="single-footer-caption mb-50" style="margin-bottom: 0px;">
-                            <P style="color: white;">© 2020 (ცკ) HALITREPHES LLC</P>
+                            <P style="color: white;">© 2020 HALITREPHES LLC</P>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6" style="display: contents;">
