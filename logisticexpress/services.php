@@ -51,8 +51,8 @@
                                     </nav>
                                 </div>
                                 <!-- Header-btn -->
-                                <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="contact.php" class="btn header-btn" style="width: 219px;color: #FF855D;font-weight: bold;">Contact Us</a>
+                                <div>
+                                  <a href="contact.php" class="btn header-btn" style=" width: 219px;color: #FF855D;font-weight: bold;margin-left: 20px;border: 4px solid #FF855D;">Contact Us</a>
                                 </div>
                             </div>
                         </div>

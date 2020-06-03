@@ -2117,7 +2117,7 @@ to {
     -o-transform: rotateY(180deg);
 }
 .header-sticky.sticky-bar {
-    background: #000;
+    background: #2268DD;
 }
 .header-sticky.sticky-bar.sticky .main-menu ul li a {
     padding: 20px 20px !important;
@@ -2489,7 +2489,7 @@ to {
     content: "";
     width: 100%;
     height: 0;
-    background: #ff5f13;
+    background: #e9634a;
     transition: .6s;
     bottom: 0;
     left: 0;

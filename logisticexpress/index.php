@@ -45,7 +45,7 @@
                     <div class="row align-items-center">
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
-                            <div class="logo">
+                            <div class="logo" style="margin-left:-100%">
                                 <a href="index.php"><img src="assets/img/icon01.svg" style="color:white" alt=""></a>
                             </div>
                         </div>
@@ -63,12 +63,8 @@
                                     </nav>
                                 </div>
                                 <!-- Header-btn -->
-                                <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="contact.php" class="btn header-btn" style="
-																																							    width: 219px;
-																																							    color: #FF855D;
-																																							    font-weight: bold;
-																																							">Contact Us</a>
+                                <div>
+                                    <a href="contact.php" class="btn header-btn" style=" width: 219px;color: #FF855D;font-weight: bold;margin-left: 20px;border: 4px solid #FF855D;">Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -236,8 +232,8 @@
     <!-- Categories Area End -->
     <!--? Testimonial Start -->
 
-    <div class="testimonial-area testimonial-padding section-bg" style="padding-top: 5%;">
-			<img style="margin: -8%;width: 30%;position: absolute; left: -6%;" src="assets/img/Ellipse_1647.png">
+    <div class="testimonial-area testimonial-padding section-bg" style="padding-top: 5%; padding-top: 5%;background-position: -393px -13px;background-size: 37%;background-repeat: no-repeat;background-image: url(assets/img/Ellipse_1647.png);">
+
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-7 col-lg-7">

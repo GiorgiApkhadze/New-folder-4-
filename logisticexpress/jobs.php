@@ -89,8 +89,8 @@ db_Disconnect();
 											</nav>
 										</div>
 										<!-- Header-btn -->
-										<div class="header-right-btn d-none d-lg-block ml-20">
-											<a href="contact.php" class="btn header-btn">Contact Us</a>
+										<div >
+											<a href="contact.php" class="btn header-btn" style=" width: 219px;color: #FF855D;font-weight: bold;margin-left: 20px;border: 4px solid #FF855D;">Contact Us</a>
 										</div>
 									</div>
 								</div>
@@ -161,10 +161,9 @@ db_Disconnect();
 					?>
 				</ul> -->
 
-				<div class="testimonial-area testimonial-padding section-bg"  style="height: 300px;">
-					<img style="margin: -8%;width: 30%;position: absolute; left: -6%;" src="assets/img/Ellipse_1647.png">
+				<div class="testimonial-area testimonial-padding section-bg"   style="padding-top: 5%; padding-top: 5%;background-position: -393px -13px;background-size: 37%;background-repeat: no-repeat;background-image: url(assets/img/Ellipse_1647.png);height: 348px;;">
 						<div class="container">
-								<div class="row justify-content-between" style="margin-top: -13%;">
+								<div class="row justify-content-between">
 										<div class="col-xl-7 col-lg-7">
 												<!-- Section Tittle -->
 												<div class="section-tittle section-tittle2 mb-25">
