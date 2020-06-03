@@ -79,6 +79,7 @@
 												<div class="row">
 														<div class="col-xl-9 col-lg-9" style="text-align: center;">
 																<div class="hero__caption">
+																		<h1 style=" position: absolute;opacity: 0.15;left: 272px;font-size: 9em;top: -11px;" >About</h1>
 																		<h1>About Us </h1>
 																</div>
 
