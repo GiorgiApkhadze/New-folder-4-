@@ -16,11 +16,33 @@ db_Disconnect();
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hailtrephes </title>
+    <title>Halitrephes</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon.svg">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="css/util.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- CSS here -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -68,7 +90,7 @@ db_Disconnect();
 										</div>
 										<!-- Header-btn -->
 										<div class="header-right-btn d-none d-lg-block ml-20">
-											<a href="contact.php" class="btn header-btn">Contact</a>
+											<a href="contact.php" class="btn header-btn">Contact Us</a>
 										</div>
 									</div>
 								</div>
@@ -88,23 +110,20 @@ db_Disconnect();
 				<div class="slider-area " >
 						<div class="slider-active">
 								<!-- Single Slider -->
-								<div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/banner02.png);min-height: 500px;">
-										<div class="container" style="margin-left:30%;">
+								<div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/banner03.png);min-height: 800px; ">
+										<div class="container" style="margin-left:23%;    text-align: center;">
 												<div class="row">
 														<div class="col-xl-9 col-lg-9">
 																<div class="hero__caption">
-																		<h1><span style="color:#2268DD">Hailtrephes</span> Challange </h1>
+																		<h1><span style="color:#2268DD">Halitrephes</span> Challange </h1>
 																</div>
 
-																<div class="hero-pera">
+																<div class="hero-pera" style="text-align:center;">
 																		<p>Join the Halitrephes team and contribute your knowledge, skills </br>
 																			and ability towards unique opportunities within the federal marketplace.</p>
 																</div>
 																<!-- <form class="search-box"> -->
-																		<div class="search-form" style="border: 4px solid #FFFFFF;
-																																							    margin-left: 23%;
-																																							    width: 18%;
-																																							    padding: 5px;">
+																		<div class="search-form" style="margin-top: 6%; border: 4px solid #FFFFFF; margin-left: 33%;text-align: center;  width: 250px;font-weight: bold;padding: 11px; height: 59px;">
 																			<input id="send_cv" type="file" style="display: none;" onchange="send_cv(this);">
 																			<a href="javascript:void(0)" onclick="document.getElementById('send_cv').click();">Email Your Resume</a>
 																		</div>
@@ -115,10 +134,7 @@ db_Disconnect();
 								</div>
 						</div>
 				</div>
-				<div class="hero__caption" style="
-    padding: 50px;
-    padding-left: 36%;
-">
+				<!-- <div class="hero__caption" style="padding: 50px;padding-left: 36%;">
 						<h1><span style="color:#2268DD">Find Your Seat </span> at Our Table </h1>
 				</div>
 				<ul class="cards">
@@ -143,11 +159,12 @@ db_Disconnect();
 					<?php
 					endforeach;
 					?>
-				</ul>
+				</ul> -->
 
-				<div class="testimonial-area testimonial-padding section-bg" data-background="assets/img/gallery/section_bg04.jpg">
+				<div class="testimonial-area testimonial-padding section-bg"  style="height: 300px;">
+					<img style="margin: -8%;width: 30%;position: absolute; left: -6%;" src="assets/img/Ellipse_1647.png">
 						<div class="container">
-								<div class="row justify-content-between">
+								<div class="row justify-content-between" style="margin-top: -13%;">
 										<div class="col-xl-7 col-lg-7">
 												<!-- Section Tittle -->
 												<div class="section-tittle section-tittle2 mb-25">
@@ -165,13 +182,13 @@ db_Disconnect();
 																</div>
 														</div>
 														<!-- Single Testimonial -->
-														<div class="single-testimonial ">
-														</div>
+														<!-- <div class="single-testimonial ">
+														</div> -->
 												</div>
 										</div>
 										<!-- Form Start -->
 										<div class="col-xl-4 col-lg-5 col-md-8">
-														<button name="submit" class="submit-btn">Contact Us</button>
+														<button name="submit" class="submit-btn" onclick="window.location.href = './contact.php';">Contact Us</button>
 										</div>
 										<!-- Form End -->
 								</div>
@@ -186,69 +203,115 @@ db_Disconnect();
 		<footer>
 		    <!--? Footer Start-->
 		    <div class="footer-area footer-bg">
-		        <div class="container">
-		            <div class="footer-top footer-padding">
-		                <!-- Footer Menu -->
-		                <div class="row d-flex justify-content-between">
-		                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
-		                        <div class="single-footer-caption mb-50">
-		                            <div class="footer-tittle">
-		                                <ul>
-		                                    <li><a href="about.php">About Us</a></li>
-		                                    <li><a href="services.php">Services</a></li>
-		                                    <li><a href="jobs.php"> Join</a></li>
-		                                    <li><a href="contacnt.php"> Contact</a></li>
-		                                </ul>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-		                        <div class="single-footer-caption mb-50">
-		                            <div class="footer-tittle">
-		                                <ul>
-		                                    <li><a target="_blank" href="./file/Halitrephes - Privacy Policy.docx">Privacy Policy</a></li>
-		                                    <li><a target="_blank" href="./file/Halitrephes - Terms of Use.docx">Term of use</a></li>
-		                                    <li><a href="#"> Sitemap</a></li>
-		                                </ul>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6">
-		                        <div class="single-footer-caption mb-50">
-		                            <!-- logo -->
-		                            <div class="footer-logo">
-		                                <a href="index.php"><img src="assets/img/footerlogo.svg" alt=""></a>
-		                            </div>
-		                            <!-- Footer Social -->
-		                            <div class="footer-social ">
-		                                <a href="https://www.facebook.com/Halitrephes/"><i class="fab fa-facebook-f" style="color:white"></i></a>
-		                                <a href="https://www.linkedin.com/company/halitrephes/"><i class="fab fa-linkedin-in" style="color:white"></i></a>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		            <!-- Footer Bottom -->
-		            <div class="footer-bottom">
-		                <div class="row d-flex align-items-center">
-		                    <div class="col-lg-12">
-		                        <div class="footer-copy-right text-center">
-		                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reservedh by Hailtrephes
-		  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
+        <div class="container">
+            <div class="footer-top footer-padding">
+                <!-- Footer Menu -->
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6" style="border-right: 1px solid white;">
+                        <div class="single-footer-caption">
+                            <!-- logo -->
+                            <div class="footer-logo" style="padding-top: 10%;">
+                                <a href="index.php"><img src="assets/img/footerlogo.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="single-footer-caption">
+                            <div class="footer-tittle">
+                                <ul>
+                                    <li><a href="about.php">About Us</a></li>
+                                    <li><a href="services.php">Services</a></li>
+                                    <li><a href="jobs.php"> Join</a></li>
+                                    <li><a href="contacnt.php"> Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" style="border-right: 1px solid white;">
+                        <div class="single-footer-caption">
+                            <div class="footer-tittle">
+                                <ul>
+                                    <li><a target="_blank" href="./file/Halitrephes - Privacy Policy.pdf">Privacy Policy</a></li>
+                                    <li><a target="_blank" href="./file/Halitrephes - Terms of Use.pdf">Term of use</a></li>
+                                    <li><a href="#"> Sitemap</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6">
+                        <div class="single-footer-caption">
+                            <!-- Footer Social -->
+                            <div class="footer-social " style="
+                                                                display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+                                                                display: -ms-flexbox;  /* TWEENER - IE 10 */
+                                                                display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+                                                                display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                min-height: 100px;">
+                                <ul style="padding-top: 10%;">
+                                    <li><div style="
+                                                        background-color: #244191;
+                                                        min-width: 30px;
+                                                        border-radius: 10%;
+                                                    " align="center">
+                                            <a target="_blank" href="https://www.linkedin.com/company/halitrephes/"><i class="fab fa-linkedin-in" style="color: #2268DD;"></i></a>
+                                        </div></li>
+                                    <li style="margin-top: 100%;">
+                                        <div style="
+                                                        background-color: #244191;
+                                                        min-width: 30px;
+                                                        border-radius: 10%;
+                                                    " align="center">
+                                            <a target="_blank" href="https://www.facebook.com/Halitrephes/"><i class="fab fa-facebook-f" style="color: #2268DD;"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6"" style="display: contents;">
+                        <div class="single-footer-caption mb-50" style="margin-bottom: 0px;">
+                            <P style="color: white;">© 2020 (ცკ) HALITREPHES LLC</P>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6" style="display: contents;">
+                        <div class="single-footer-caption mb-50" style="margin-bottom: 0px;">
+                            <P style="color: white;"><i class="fa fa-phone" style="transform: rotate(90deg);"></i> +1 214 609 6539</P>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6"" style="display: contents;">
+                        <div class="single-footer-caption mb-50" style="margin-bottom: 0px;">
+                            <P style="color: white;"><i class="fas fa-map-marker-alt"></i> 21 NORTH BROAD STREET, SUITE D, LURAY, VA 22835</P>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6" style="display: contents">
+                        <div class="single-footer-caption mb-50" style="margin-bottom: 0px;">
+                           <P style="color: white;"><i class="fa fa-envelope"></i> <a href="mailto:info@halitrephes.com">info@halitrephes.com</a></P>
+                        </div>
+                    </div>
+                </div>
+            <!-- Footer Bottom -->
+            <!-- <div class="footer-bottom">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right text-center">
+                            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reservedh by Hailtrephes</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
 		    <!-- Footer End-->
 		</footer>
     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
     <!-- Scroll Up -->
-    <div id="back-top" >
+    <!-- <div id="back-top" >
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-    </div>
+    </div> -->
 
 <!-- JS here -->
 
