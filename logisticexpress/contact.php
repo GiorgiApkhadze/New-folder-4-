@@ -92,7 +92,8 @@
     <!-- Header End -->
 </header>
 <div class="container-contact100">
-	<div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+	<!-- <div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div> -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9553.548624409896!2d-78.45893278773697!3d38.66500775941823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b44de26ff598b9%3A0x97262f3d4b851ea7!2zMjEgTiBCcm9hZCBTdCBTVUlURSBELCBMdXJheSwgVkEgMjI4MzUsIOGDkOGDm-GDlOGDoOGDmOGDmeGDmOGDoSDhg6jhg5Thg5Thg6Dhg5fhg5Thg5Hhg6Phg5rhg5gg4YOo4YOi4YOQ4YOi4YOU4YOR4YOY!5e0!3m2!1ska!2sge!4v1591173433911!5m2!1ska!2sge" class="contact100-map" style="width: 30%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 	<div class="wrap-contact100" style="background:white; height:808px">
 		<form class="contact100-form validate-form">
 			<span class="contact100-form-title" style="font-size:18px;color:#272727;" >
@@ -109,7 +110,7 @@
 
 				<div class="flex-col size2">
 					<span class="txt1 p-b-20">
-						+1 800 1236879
+						+1 214 6096539
 					</span>
 
 					<span class="txt3">
@@ -146,7 +147,7 @@
 
 					<div class="flex-col size2">
 						<span class="txt1 p-b-20">
-								contact@example.com
+								<a href="mailto:info@halitrephes.com">info@halitrephes.com</a>
 						</span>
 
 						<span class="txt3">
@@ -166,7 +167,7 @@
 		</form>
 	</div>
 	<div class="wrap-contact100">
-		<form class="contact100-form validate-form">
+		<form class="contact100-form validate-form" action="./utils/send_contact.php" method="POST">
 			<span class="contact100-form-title">
 				Contact Us
 			</span>
@@ -192,7 +193,7 @@
 			<div class="container-contact100-form-btn">
 				<div class="wrap-contact100-form-btn">
 					<div class="contact100-form-bgbtn"></div>
-					<button class="contact100-form-btn">
+					<button type="submit" class="contact100-form-btn">
 						Send
 					</button>
 				</div>
@@ -332,6 +333,7 @@
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-23581568-13');
+          </script>
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- Jquery, Popper, Bootstrap -->
     <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>

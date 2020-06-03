@@ -14,10 +14,10 @@ require '../phpfiles/src/PHPMailer.php';
 require '../phpfiles/src/SMTP.php';
 
 $email = new PHPMailer();
-$email->SetFrom('you@example.com', 'CV'); //Name is optional
+$email->SetFrom('info@halitrephes.com', 'CV'); //Name is optional
 $email->Subject   = 'cv';
-$email->Body      = 'cv';
-$email->AddAddress( 'vatia1998@gmail.com' );
+$email->Body      = '-';
+$email->AddAddress( 'careers@halitrephes.com' );
 
 $email->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
 $email->isSMTP();                                            // Send using SMTP
