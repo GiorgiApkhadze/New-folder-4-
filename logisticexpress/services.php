@@ -33,7 +33,7 @@
                     <div class="row align-items-center">
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
-                            <div class="logo">
+                            <div class="logo" style="margin-left:-100%">
                                 <a href="index.php"><img src="assets/img/icon.svg" style="color: #272727;" alt=""></a>
                             </div>
                         </div>
@@ -86,33 +86,42 @@
 </div> -->
 <main>
 	<div class="hero__caption">
-			<h1 style="text-align: center;font-family: inherit;color: #2268DD;text-shadow: 2px 2px #2268DD;margin-top: 8%;"> Services</h1>
+			<h1 style="text-align: left;font-family: inherit;color: #2268DD;text-shadow: 2px 2px #2268DD;margin-top: 8%;"> Services</h1>
 	</div>
 	<div class="list">
 	<div class="flip-flop">
 		<div class="fc-adv">
-			<div><img alt="The Fusion Advantage"  src="assets\img\services1.svg" title="The Fusion Advantage" /></div>
-			<div class="fc-adv-txt-r">
-				<h3><a >Hardware & Computing Solutions</a></h3>
+			<div class="fc-adv-txt-l">
+				<h3><a>Hardware & Computing Solutions</a></h3>
 				<p>We maintain a complete portfolio of vendors to keep you connected, communicating and collaborating with your global team.</p>
+			</div>
+			<div style="background-size: cover;background-repeat: no-repeat;background-image: url(assets/img/MaskGroup3.png);background-color: #F9F9F9; height: 340px;"><img style="margin-top: 4%;" alt="Customer-centered, Results-driven" src="assets\img\1.png" title="Customer-centered, Results-driven" /></div>
+		</div>
+	</div>
+	<div class="flip-flop">
+		<div class="fc-adv">
+			<div style="background-size: cover;background-repeat: no-repeat;background-image: url(assets/img/MaskGroup3.png);background-color: #F9F9F9; height: 340px;"><img style="margin-top: 4%;" alt="Partner With Confidence" src="assets\img\2.png" title="Partner With Confidence" /></div>
+			<div class="fc-adv-txt-r">
+				<h3><a>Acquisition & Program Management Support</a></h3>
+				<p>We focus our efforts on the key elements that shape most program’s cost, schedule and scope throughout the acquisition lifecycle ensuring that our customers receive high quality, performance-based, and effective systems as quickly as possible.</p>
 			</div>
 		</div>
 	</div>
 	<div class="flip-flop">
 		<div class="fc-adv">
 			<div class="fc-adv-txt-l">
-				<h3><a>Acquisition & Program Management Support</a></h3>
-				<p>We focus our efforts on the key elements that shape most program’s cost, schedule and scope throughout the acquisition lifecycle ensuring that our customers receive high quality, performance-based, and effective systems as quickly as possible.</p>
+				<h3><a>Innovative Software</a></h3>
+				<p>Backed by Amazon, Google and Microsoft to give you a secure software application. We have partnered with the best so you can rest easy.</p>
 			</div>
-			<div><img alt="Customer-centered, Results-driven" src="assets\img\sevices2.svg" title="Customer-centered, Results-driven" /></div>
+			<div style="background-size: cover;background-repeat: no-repeat;background-image: url(assets/img/MaskGroup3.png);background-color: #F9F9F9; height: 340px;"><img style="margin-top: 4%;" alt="Customer-centered, Results-driven" src="assets\img\3.png" title="Customer-centered, Results-driven" /></div>
 		</div>
 	</div>
 	<div class="flip-flop">
 		<div class="fc-adv">
-			<div><img alt="Partner With Confidence" src="assets\img\services3.svg" title="Partner With Confidence" /></div>
+			<div style="background-size: cover;background-repeat: no-repeat;background-image: url(assets/img/MaskGroup3.png);background-color: #F9F9F9; height: 340px;"><img style="margin-top: 4%;" alt="Partner With Confidence" src="assets\img\4.png" title="Partner With Confidence" /></div>
 			<div class="fc-adv-txt-r">
-				<h3><a>Innovative Software</a></h3>
-				<p>Backed by Amazon, Google and Microsoft to give you a secure software application. We have partnered with the best so you can rest easy.</p>
+				<h3><a>Linguist Support</a></h3>
+				<p>We work with governments and large prime contractors providing high-quality simultaneous, consecutive interpretation and translation services. Our team ensures that you effectively communicate with partner nations and foreign companies.</p>
 			</div>
 		</div>
 	</div>
@@ -260,6 +269,10 @@
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
-
+<style>
+h3	{
+	color: #2268DD;
+}
+</style>
 </body>
 </html>

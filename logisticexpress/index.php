@@ -121,15 +121,13 @@
 	</div>
     <!-- slider Area End-->
     <!--? our info Start -->
-    <div class="our-info-area pt-70 pb-40" style="height:126px">
-        <div class="container" style="margin-left:27%;">
+    <div class="our-info-area pt-70 pb-40" style="height:63px">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-30">
                         <div class="info-icon">
-                            <span class="">
-                              <img src="assets/img/Group 9238.svg">
-                            </span>
+
                         </div>
                         <div class="info-caption">
                         </div>
@@ -138,18 +136,14 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-30">
                         <div class="info-icon">
-                            <span class="">
-                              <img src="assets/img/logo-5066.v1.orig.png">
-                            </span>
+
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-30">
                         <div class="info-icon">
-                            <span >
-                              <img src="assets/img/SDVOSB-logo.png">
-                            </span>
+
                         </div>
                     </div>
                 </div>
@@ -158,7 +152,7 @@
     </div>
     <!-- our info End -->
     <!--? Categories Area Start -->
-    <div class="categories-area section-padding30"  style="background-position: 900px 48px;background-size: cover;background-repeat: no-repeat;background-image: url(assets/img/elipse.png);">
+    <div class="categories-area section-padding30"  style="background-position: 900px 948px;background-size: cover;background-repeat: no-repeat;background-image: url(assets/img/elipse.png);">
         <div class="container">
             <div class="row">
 
@@ -170,59 +164,72 @@
                             <h2 style="text-align: left !important;font-family: inherit;line-height: 1.0; display: flex; align-items: center;">Get started with</h2>
                             <h2 style="text-align: left !important;font-family: inherit;line-height: 1.0; display: flex; align-items: center; max-width: 65%">Halitrephes<span style="flex: 1 1 auto;border-top: 3px solid #007bff;margin-bottom: 0px;margin: 5%;margin-top: 8%;"></span></h2>
                           </div>
-                          <div class="column" style="text-align: left !important;">
-                            <p><b>We work with development and security teams to secure, govern and protect public cloud deployments.</b></p>
-                            <br>
-                            <p><b><span style="color: #007bff; display: inline;">Trusted</span> by financial services, healthcare, government, business and entertainment media, we are certified, highly experienced and empathetic compliance-focused orifessionals.</b></p>
-                          </div>
+                          <div class="column" style="text-align: left !important;width: 39%; ">
+                            <p><b>Reliable information technology partner providing professional acquisition, program management and linguist support to federal and commercial clients.</b></p>
+                            <br></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="width:115%">
 
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
 									<!-- <img style="z-index: 2;position: absolute;overflow: hidden;top: 48%;" src="assets/img/get_started.svg"> -->
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
 													<span>
-														<img src="assets/img/Section 2 icon 1.svg" style=" position: relative;left: -134px;	">
+														<img src="assets/img/4.png" style="width: 200px; position: relative;left: -172px;	">
 													</span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a style="text-align: initial;font-size: 24px;">Halitrephes for your acquisition requirements</a></h5>
-                            <p>Build your contracting office with experienced acquisition personnel</p>
-														  <p><a href="services.php" style="text-align: initial;font-size: 18px; font-weight: bold; color: white;">Learn More ></a></p>
+                            <h5><a style="text-align: initial;font-size: 24px;">	Linguist Support</a></h5>
+                            <p>We work with governments and large prime contractors providing high-quality simultaneous, consecutive interpretation and translation services. Our team ensures that you effectively communicate with partner nations and foreign companies.</p>
+														  <p><a href="services.php" style="text-align: initial;font-size: 18px; font-weight: bold; color: #FF855D;">Learn More ></a></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
                             <span>
-															<img src="assets/img/Group 5161.svg" style=" position: relative;left: -134px;">
+															<img src="assets/img/2.png" style=" width: 141px;position: relative;left: -187px;">
 														</span>
                         </div>
                         <div class="cat-cap">
                             <h5><a href="services.php" style="	text-align: initial;font-size: 24px;">
-															Specialized hardware</a></h5>
-                            <p style="padding-bottom: 5px;">Optimize your computing bandwidth with cuttingedge technology.</br></p>
+															Halitrephes for your </br>acquisition requirements</a></h5>
+                            <p style="padding-bottom: 5px;">Build your contracting office with </br> experienced acquisition personnel</br></p>
 														</br>
-														<p><a href="services.php" style="text-align: initial;font-size: 18px;font-weight: bold; color: white;">Learn More ></a></p>
+														<p><a href="services.php" style="text-align: initial;font-size: 18px;font-weight: bold; color: #FF855D;">Learn More ></a></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
                             <span>
-															<img src="assets/img/002-interface-1.svg" style="  position: relative;left: -134px;	">
+															<img src="assets/img/3.png" style=" width: 200px; position: relative;left: -172px;	">
+														</span>
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a style="	text-align: initial;font-size: 24px;	">Specialized hardware</a></h5>
+                            <p>Optimize your computing bandwidth</br> with cuttingedge technology.</p>
+														<p><a href="services.php" style="text-align: initial;font-size: 18px;font-weight: bold; color: #FF855D;">Learn More ></a></p>
+                        </div>
+                    </div>
+                </div>
+								<div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="single-cat text-center mb-50">
+                        <div class="cat-icon">
+                            <span>
+															<img src="assets/img/1.png" style="width: 200px;  position: relative;left: -172px	">
 														</span>
                         </div>
                         <div class="cat-cap">
                             <h5><a style="	text-align: initial;font-size: 24px;	">Software Solutions</a></h5>
-                            <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
-														<p><a href="services.php" style="text-align: initial;font-size: 18px;font-weight: bold; color: white;">Learn More ></a></p>
+                            <p>We identify the right software </br> application to meet your specific need.</p>
+														<p><a href="services.php" style="text-align: initial;font-size: 18px;font-weight: bold; color: #FF855D;">Learn More ></a></p>
                         </div>
                     </div>
                 </div>
@@ -267,7 +274,7 @@
     </div>
     <!-- Testimonial End -->
     <!--? Blog Area Start -->
-    <div class="home-blog-area section-padding30">
+    <div class="home-blog-area section-padding30" style="background-position: 900px -1045px;background-size: cover;background-repeat: no-repeat;background-image: url(assets/img/elipse.png);">
         <div class="container" style="
     padding: 83px;
     padding-top: 0;

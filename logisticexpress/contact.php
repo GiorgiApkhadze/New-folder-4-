@@ -53,7 +53,7 @@
                     <div class="row align-items-center">
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
-                            <div class="logo">
+                            <div class="logo" style="margin-left:-100%">
                                 <a href="index.php"><img src="assets/img/icon.svg" style="color: #272727;" alt=""></a>
                             </div>
                         </div>

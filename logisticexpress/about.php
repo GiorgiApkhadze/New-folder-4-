@@ -35,7 +35,7 @@
 		                    <div class="row align-items-center">
 		                        <!-- Logo -->
 		                        <div class="col-xl-2 col-lg-2">
-									<div class="logo">
+									<div class="logo" style="margin-left:-100%">
 										<a href="index.php"><img src="assets/img/icon01.svg" style="color:white" alt=""></a>
 									</div>
 								</div>
@@ -74,12 +74,12 @@
 				<div class="slider-area " >
 						<div class="slider-active">
 								<!-- Single Slider -->
-								<div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/banner.png);height: 567px; ">
+								<div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/banner1.png);height: 567px; ">
 										<div class="container" style="margin-left:26%;">
 												<div class="row">
 														<div class="col-xl-9 col-lg-9" style="text-align: center;">
 																<div class="hero__caption">
-																		<h1 style=" position: absolute;opacity: 0.15;left: 25%;font-size: 9em;top: -11px;" >About</h1>
+																		<h1 style="position: absolute;opacity: 0.07;left: 30%;font-size: 7em;top: -11px;" >ABOUT</h1>
 																		<h1>About Us </h1>
 																</div>
 

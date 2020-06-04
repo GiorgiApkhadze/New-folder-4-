@@ -58,7 +58,7 @@ for ($i = 0; $i < sizeof($field); $i++)
 		                    <div class="row align-items-center">
 		                        <!-- Logo -->
 		                        <div class="col-xl-2 col-lg-2">
-									<div class="logo">
+									<div class="logo" style="margin-left:-100%">
 										<a href="index.php"><img src="assets/img/icon01.svg" style="color:white" alt=""></a>
 									</div>
 								</div>
