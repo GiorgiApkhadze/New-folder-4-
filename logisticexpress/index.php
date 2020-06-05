@@ -152,7 +152,7 @@
     </div>
     <!-- our info End -->
     <!--? Categories Area Start -->
-    <div class="categories-area section-padding30"  style="background-position: 900px 948px;background-size: cover;background-repeat: no-repeat;background-image: url(assets/img/elipse.png);">
+    <div class="categories-area section-padding30"  style="margin-left: 7%;background-position: 900px 948px;background-size: cover;background-repeat: no-repeat;background-image: url(assets/img/elipse.png);">
         <div class="container">
             <div class="row">
 

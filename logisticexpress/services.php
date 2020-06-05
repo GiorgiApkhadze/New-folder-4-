@@ -68,27 +68,11 @@
     <!-- Header End -->
 </header>
 <div class="slider-area ">
-		<!-- <div class="slider-active">
-
-				<div class="bkg" style="background:black">
-				<div class="single-slider slider-height d-flex align-items-center " >
-						<div class="container">
-								<div class="row">
-										<div class="col-xl-9 col-lg-9">
-												<div class="hero__caption">
-														<h1 style="font-family: inherit;"> Services</h1>
-												</div>
-										</div>
-								</div>
-						</div>
-				</div>
-		</div>
-</div> -->
 <main>
 	<div class="hero__caption">
-			<h1 style="text-align: left;font-family: inherit;color: #2268DD;text-shadow: 2px 2px #2268DD;margin-top: 8%;"> Services</h1>
+			<h1 style="text-align: left;position: absolute;font-family: inherit;color: #272727;text-shadow: 2px 2px #272727;margin-top: 0%;left: 6%;"> Services</h1>
 	</div>
-	<div class="list">
+	<div class="list" style="margin-top:7%;">
 	<div class="flip-flop">
 		<div class="fc-adv">
 			<div class="fc-adv-txt-l">

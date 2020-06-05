@@ -45,63 +45,74 @@
 <!--? Preloader Start -->
 <!-- Preloader Start -->
 <header>
-    <!-- Header Start -->
-    <div class="header-area">
-        <div class="main-header ">
-            <div class="header-bottom  header-sticky" style="background:white">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <!-- Logo -->
-                        <div class="col-xl-2 col-lg-2">
-                            <div class="logo" style="margin-left:-100%">
-                                <a href="index.php"><img src="assets/img/icon.svg" style="color: #272727;" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10">
-                            <div class="menu-wrapper  d-flex align-items-center justify-content-end">
-                                <!-- Main-menu -->
-                                <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="about.php" style="color: #272727;">About</a></li>
-                                            <li><a href="services.php" style="color: #272727;">Services</a></li>
-                                            <li><a href="jobs.php" style="color: #272727;">Join</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <!-- Header-btn -->
-                                <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="contact.php" class="btn header-btn" style="
-																																							    width: 219px;
-																																							    color: #FF855D;
-																																							    font-weight: bold;
-																																							">Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Mobile Menu -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Header End -->
+		<!-- Header Start -->
+		<div class="header-area">
+				<div class="main-header ">
+						<div class="header-bottom  header-sticky">
+								<div class="container">
+										<div class="row align-items-center">
+												<!-- Logo -->
+												<div class="col-xl-2 col-lg-2">
+							<div class="logo" style="margin-left:-100%">
+								<a href="index.php"><img src="assets/img/icon01.svg" style="color:white" alt=""></a>
+							</div>
+						</div>
+						<div class="col-xl-10 col-lg-10">
+							<div class="menu-wrapper  d-flex align-items-center justify-content-end">
+								<!-- Main-menu -->
+								<div class="main-menu d-none d-lg-block">
+									<nav>
+										<ul id="navigation">
+											<li><a href="about.php">About</a></li>
+											<li><a href="services.php">Services</a></li>
+											<li><a href="jobs.php">Join</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<!-- Header-btn -->
+								<div>
+									<a href="contact.php" class="btn header-btn" style=" width: 219px;height: 59px;padding:7%; color: #FF855D;font-weight: bold;margin-left: 20px;border: 4px solid #FF855D;">Contact Us</a>
+								</div>
+							</div>
+						</div>
+												<!-- Mobile Menu -->
+												<div class="col-12">
+														<div class="mobile_menu d-block d-lg-none"></div>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+		<!-- Header End -->
 </header>
+<div class="slider-area " >
+		<div class="slider-active">
+				<div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/banner1.png);height: 567px; ">
+						<div class="container" style="margin-left:26%;">
+								<div class="row">
+										<div class="col-xl-9 col-lg-9" style="text-align: center;">
+												<div class="hero__caption">
+														<h1 style="position: absolute;opacity: 0.07;left: 20%;font-size: 7em;top: -11px;" >CONTACT</h1>
+														<h1>Contact Us </h1>
+												</div>
+
+												<div class="hero-pera">
+														<p>Halitrephes is a Virginia Limited Liability Corporation, Small Business Concern and self-certified, Service-Disabled, Veteran-Owned, SmallBusiness (SDVOSB) located in Northern Virginia just 90 minutes from Washington DC.</p>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
+<div class="hero__caption">
+		<h1 style="text-align: center;font-family: inherit;color: #272727;text-shadow: 2px 2px #272727;margin-top: 5%;"> How Can We Help?</h1>
+</div>
 <div class="container-contact100">
-	<!-- <div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div> -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9553.548624409896!2d-78.45893278773697!3d38.66500775941823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b44de26ff598b9%3A0x97262f3d4b851ea7!2zMjEgTiBCcm9hZCBTdCBTVUlURSBELCBMdXJheSwgVkEgMjI4MzUsIOGDkOGDm-GDlOGDoOGDmOGDmeGDmOGDoSDhg6jhg5Thg5Thg6Dhg5fhg5Thg5Hhg6Phg5rhg5gg4YOo4YOi4YOQ4YOi4YOU4YOR4YOY!5e0!3m2!1ska!2sge!4v1591173433911!5m2!1ska!2sge" class="contact100-map" style="width: 30%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 	<div class="wrap-contact100" style="background:white; height:808px">
 		<form class="contact100-form validate-form">
-			<span class="contact100-form-title" style="font-size:18px;color:#272727;" >
-			Halitrephes is a Virginia Limited Liability Corporation,
-			 Small Business Concern and self-certified, Service-Disabled,
-			  Veteran-Owned, SmallBusiness (SDVOSB) located in Northern Virginia
-				 just 90 minutes from Washington DC.
-			</span>
 	<div class="wrap-input100 validate-input" style="border-bottom: none;margin-bottom: -4%;    margin-top: 20%;">
 			<div class="dis-flex size1 p-b-47">
 				<div class="txt1 p-r-25">
@@ -168,10 +179,6 @@
 	</div>
 	<div class="wrap-contact100">
 		<form class="contact100-form validate-form" action="./utils/send_contact.php" method="POST">
-			<span class="contact100-form-title">
-				Contact Us
-			</span>
-
 			<div class="wrap-input100 validate-input" data-validate="Name is required">
 				<span class="label-input100">Name</span>
 				<input class="input100" type="text" name="name" placeholder="Name...">
@@ -194,7 +201,7 @@
 				<div class="wrap-contact100-form-btn">
 					<div class="contact100-form-bgbtn"></div>
 					<button type="submit" class="contact100-form-btn">
-						Send
+						Submit
 					</button>
 				</div>
 			</div>

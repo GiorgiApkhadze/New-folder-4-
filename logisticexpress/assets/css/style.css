@@ -5459,11 +5459,13 @@ b, sup, sub, u, del {
   .fc-adv-txt-r {
 	padding-right: 7%;
 	text-align: right;
+	padding-left: 8%;
 
   }
   .fc-adv-txt-l {
 	padding-left: 7%;
 	text-align: left;
+	padding-right: 8%;
   }
 }
 .cards {

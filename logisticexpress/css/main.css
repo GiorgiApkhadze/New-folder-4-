@@ -146,8 +146,7 @@ iframe {
 [ Contact ]*/
 
 .container-contact100 {
-	margin-top: 5%;
-  width: 100%;
+  width: 82%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -174,7 +173,7 @@ iframe {
 .wrap-contact100 {
   width: 550px;
   min-height: 100vh;
-  background: #00235E;
+  background: white;
   border-radius: 2px;
   padding: 82px 55px 33px 55px;
   position: relative;
@@ -205,7 +204,7 @@ iframe {
   display: block;
   width: 100%;
   font-size: 39px;
-  color: white;
+  color: #212529;
   text-align: left;
   padding-bottom: 64px;
 }
